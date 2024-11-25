@@ -47,7 +47,7 @@ export const importPostmanV2Collection = (collection: PostmanCollection) => {
       // If the item is a request, process it
       if (item.request && item.response?.length) {
         // to check if the request is not empty in the postman collection
-        if (item.request.url.path) {
+        if (item.request?.url?.path) {
           const path = item.request.url.path.join("/");
           //   Initialize route and method entry if not present
           if (!routes[path]) {
