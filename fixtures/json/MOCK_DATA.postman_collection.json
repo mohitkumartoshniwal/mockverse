@@ -1,0 +1,392 @@
+{
+	"info": {
+		"_postman_id": "76f48029-5fbf-47b7-acae-113964c4c2ab",
+		"name": "MOCK_DATA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38950721"
+	},
+	"item": [
+		{
+			"name": "getPosts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/getPosts",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"getPosts"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "getPosts",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/getPosts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"getPosts"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "144"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"90-LqNz997EUZOyr8Wn2NP2KXPmshQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 24 Nov 2024 06:42:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"message\": \"OK\",\n    \"data\": [\n            {\n                \"title\": \"Post 1\"\n            },\n            {\n                \"title\": \"Post 2\"\n            }\n        ]\n}"
+				},
+				{
+					"name": "getPosts",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/getPosts?try2=false",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"getPosts"
+							],
+							"query": [
+								{
+									"key": "try",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "try2",
+									"value": "false"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "144"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"90-LqNz997EUZOyr8Wn2NP2KXPmshQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 24 Nov 2024 08:46:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"message\": \"OK\",\n    \"data\": [\n            {\n                \"title\": \"Post 31\"\n            },\n            {\n                \"title\": \"Post 32\"\n            }\n    ]\n}"
+				},
+				{
+					"name": "getPosts",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/getPosts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"getPosts"
+							],
+							"query": [
+								{
+									"key": "try",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "try2",
+									"value": "false",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "144"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"90-LqNz997EUZOyr8Wn2NP2KXPmshQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 24 Nov 2024 08:46:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"message\": \"OK\",\n    \"data\": [\n            {\n                \"title\": \"Post 55\"\n            },\n            {\n                \"title\": \"Post 56\"\n            }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "getUserDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/getUserDetails",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"getUserDetails"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "getUserDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/getUserDetails",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"getUserDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "6780"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1a7c-9yr8v9OPxrH1y88XXHfoKTfPaKk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 24 Nov 2024 06:43:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"message\": \"Ok\",\n    \"data\": {\n       \"name\":\"Mohit\",\n       \"occupation\": \"Engineer\"\n    }\n}"
+				},
+				{
+					"name": "getUserDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"try\": \"123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/getUserDetails",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"getUserDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "6780"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1a7c-9yr8v9OPxrH1y88XXHfoKTfPaKk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 24 Nov 2024 07:06:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"message\": \"Ok\",\n    \"data\": {\n       \"name\":\"John\",\n       \"occupation\": \"Musician\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
